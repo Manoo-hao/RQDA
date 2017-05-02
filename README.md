@@ -12,18 +12,25 @@ particular if you are using a newer version of R.
 
 
 ### R
-R version 3.3.1
+<ul>
+ <li>R version 3.3.1</li>
+</ul>
 
 ### RQDA + Database interface
-RQDA 0.2-8
-RSQLite 1.0.0
+<ul>
+ <li>RQDA 0.2-8</li>
+ <li>RSQLite 1.0.0</li>
+</ul>
 
 
 ### .pdf highlight import
-rjpod 0.1-1
-rJava 0.9-8
-
+<ul>
+ <li>rjpod 0.1-1</li>
+ <li>rJava 0.9-8</li>
+</ul>
 
 ### 'Supplementary' packages
-devtools 1.12.0
-d3Network 0.5.2.1
+<ul>
+ <li>devtools 1.12.0</li>
+ <li>d3Network 0.5.2.1</li>
+</ul>

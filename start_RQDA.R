@@ -24,7 +24,7 @@ library(RSQLite) #attach RSQlite to library.
 # "Error: package ‘RSQLite’ is required by ‘RQDA’ so will not be detached"
 # Install RSQLite before RQDA is loaded.
 
-# If the wrong version of RSQLite is installed, the following happens when trying to attache coding to a file. --> Error: "Fail to write to database."
+# If the wrong version of RSQLite is installed, the following happens when trying to attach coding to a file. --> Error: "Fail to write to database."
 # See here: https://github.com/Ronggui/RQDA/wiki/Note-on-%22Fail-to-write-to-database%22-%7C-RQDA
 
 # Installing the older version of RSQLite (1.0.0) prompted me to install Rtools 3.4
@@ -34,12 +34,7 @@ library(RSQLite) #attach RSQlite to library.
 
 # Install and load RQDA from CRAN, make sure that RSQLite is not overwritten with the new version, as it is one of the dependencies.
 install.packages("RQDA")
-# install.packages("RQDA", dependencies = FALSE)
 library(RQDA)
-# Loading required package: gWidgetsRGtk2
-# Loading required package: RGtk2
-# Loading required package: gWidgets
-# Loading required package: cairoDevice
 
 
 ### Installing associated packages required for extracting highlighted sections from .pdf files.
@@ -63,6 +58,7 @@ library(rjpod)
 # For interactive graphical networks of code-categories, another package is required. (This is pretty nifty)
 install.packages("d3Network")
 library(d3Network)
+# If exporting the network image as a postscript file, make sure you can open .eps files. In my case I had to install postscript + ghostscript plugins for Irfan View.
 
 
 ###########################
